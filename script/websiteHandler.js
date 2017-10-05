@@ -1,0 +1,4 @@
+function telMe() {
+    alert('hello')
+    
+}
