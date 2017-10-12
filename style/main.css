@@ -47,11 +47,10 @@ a:hover {
  font-size: 3em;
  font-family: 'Raleway', sans-serif;
  padding: 10px px;
- border: 6px solid white;
  color: white;
  text-align: center;
-  width:40vw;
-  text-shadow: 1px 1px 3px black;
+ width:40vw;
+ text-shadow: 1px 1px 3px black;
 }
 
 i {
@@ -63,8 +62,13 @@ i {
   }
 
 .go-down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+  position: relative;
+  top:400px;
+  width:100px;
+  height: 100px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  border:2px solid red;
 }
 h1 {
 }
