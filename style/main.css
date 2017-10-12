@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
-
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,400i,600,700,800');
 html {
   height:100%;
 }
@@ -12,8 +11,10 @@ body {
     background-image: url('../img/main-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
 }
-header{
+
+header {
   position: fixed;
   z-index: 999;
 }
@@ -34,41 +35,85 @@ a:link {
   color: white;
   text-decoration: none;
 }
-
 a:hover {
   color: red;
 }
 
+#menu-button {
+  position: fixed;
+  right:16px;
+  top:16px;
+  width:32px;
+  height: 32px;
+  text-shadow: 1px 1px 3px black; 
+}
+
 .page-title {
- position: relative;
- left:50%;
- top:30%;
- transform: translate(-50%);
- font-size: 3em;
- font-family: 'Raleway', sans-serif;
- padding: 10px px;
- color: white;
- text-align: center;
- width:40vw;
- text-shadow: 1px 1px 3px black;
+  position: relative;
+  left:50%;
+  top:25%;
+  transform: translate(-50%);
+  font-size: 5em;
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  width:40vw;
+  text-shadow: 1px 1px 3px black;
 }
 
 i {
     border: solid white;
-    border-width: 0 3px 3px 0;
+    border-width:0px 6px 6px 0px;
+    padding: 15px;
     display: inline-block;
-    padding: 3px;
-    display: inline-block;
+    position: absolute;
+    top:50%;left:50%;
+    margin-top:10px;
+    transform:translate(-50%,-50%);
+    transform:rotate(45deg);
   }
 
 .go-down {
   position: relative;
-  top:400px;
+  top:50%;left:50%;
+  transform:translate(-50%,-50%);
   width:100px;
+  border-radius:50%;
   height: 100px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-  border:2px solid red;
 }
-h1 {
+
+.center {
+  width:50%;
+  height:50%;
+  position: absolute;
+  left: 50%;
+  top:85%;
+  transform: translate(-50%,-50%);
+}
+
+#caption-up-left {
+  width:32px;
+  position: absolute;
+  left: -20px;
+  top:-30px;
+  opacity: 0.5;
+}
+
+#caption-bottom-right {
+  width: 32px;
+  position: absolute;
+  right: 20px;
+  opacity: 0.5;
+}
+
+p {
+  color: white;
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+  font-weight:300;
+  text-shadow: 1px 1px 3px black;
+  opacity: 0.7;
 }
