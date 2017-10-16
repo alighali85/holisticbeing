@@ -2,5 +2,6 @@
         "colors": "white", 
         "font-size":"12px",
         "font-family":"'Open Sans', sans-serif;",
-        "secondary-font":
+        "secondary-font":,#
+        "icons-line-color":"#096066",
 }
