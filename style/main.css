@@ -196,3 +196,17 @@ li img {
   border-radius: 50%;
   z-index: 999;
 }
+
+.last-post {
+  position: relative;
+  top:100vh;
+  height: 100vh;
+  background: red;
+}
+
+.contact-me-form {
+  min-width:600px;
+  min-height: 400px;
+  border: red;
+  background: lightblue;
+}
