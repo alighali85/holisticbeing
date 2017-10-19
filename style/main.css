@@ -192,9 +192,13 @@ li img {
   bottom: 10px;
   width:50px;
   height: 50px;
-  border: 2px solid red;
+  background: red;
+  color:white;
   border-radius: 50%;
   z-index: 999;
+  display: flex;
+  align-content: center;
+  align-content: center;
 }
 
 .last-post {
