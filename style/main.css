@@ -39,11 +39,11 @@ a:hover {
   color: red;
 }
 
-#menu-button, span {
+#menu-button {
   border:2px solid red;
   position: fixed;
   left:16px;
-  top:16px;
+  /*! top:16px; */
   width:32px;
   height: 32px;
   text-shadow: 1px 1px 3px white; 
@@ -51,6 +51,11 @@ a:hover {
   cursor:pointer;
   transition : all 300ms ease-in-out;
   background:url('image/main-bg.jpg');
+}
+
+span{
+  position: relative;
+  left: 10px;
 }
 
 .page-title {
