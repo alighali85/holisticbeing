@@ -6,8 +6,8 @@
         "icons-line-color":"#096066",
 }
 
-  var colors = {
-          "main-color": "#FF5722",
-          "second-color":"#448AFF",
-          "special":"#448AFF",
+  var mian-colors = {
+          "orang": "#FF5722",
+          "blue":"#448AFF",
+          "special":"#FF8A80",
   }
