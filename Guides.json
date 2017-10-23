@@ -1,4 +1,4 @@
-
+[
 
        {    
                 "colors": {
@@ -9,10 +9,11 @@
                 "icons-line-color":"#096066"
         
                 }
-        }
+        },
 
 
-        var mian-colors = {
+         {
+                "mian-colors" :{
                 "orang": "#FF5722",
                 "blue": "#448AFF",
                 "special": "#FF8A80",
@@ -27,7 +28,8 @@
                 "gradient-special": "background: #FC466B;  /* fallback for old browsers */
                 background: -webkit-linear-gradient(to bottom, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
                 background: linear-gradient(to bottom, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-                ",
+                "
+         }
         }
         {
                 "data": {
@@ -37,4 +39,5 @@
                 "sum(punten)": "17"
                 }
                 },
-        }
+        
+]

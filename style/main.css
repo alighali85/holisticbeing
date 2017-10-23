@@ -223,3 +223,9 @@ li img {
   border: red;
   background: lightblue;
 }
+
+.circle-img {
+  border-radius:50%;
+  width:400px;
+  height:400px;
+}
