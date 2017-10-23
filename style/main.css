@@ -22,6 +22,10 @@ header {
   z-index: 999;
 }
 
+.page-width-wraper {
+  max-width: 1170px;
+}
+
 nav {
   position: fixed;
   right: 4em;
