@@ -2,42 +2,35 @@
 
        {    
                 "colors": {
-                "colors": "white", 
-                "font-size": "12px",
-                "font-family": "'Open Sans', sans-serif;",
-                "secondary-font":"",
-                "icons-line-color":"#096066"
+                "hb__colors": "white", 
+                "hb__fontSize": "12px",
+                "hb__fontFamily": "'Open Sans', sans-serif;",
+                "hb__secondaryFont":"",
+                "hb__iconsLineColor":"#096066"
         
                 }
         },
 
 
          {
-                "mian-colors" :{
-                "orang": "#FF5722",
-                "blue": "#448AFF",
-                "special": "#FF8A80",
-                "gradient-orange": "background: #FF512F;  /* fallback for old browsers */
+                "hb__mianColors" :{
+                "hb__colorOrang": "#FF5722",
+                "hb__blue": "#448AFF",
+                "hb__special": "#FF8A80",
+                "hb__gradient-orange": "background: #FF512F;  /* fallback for old browsers */
                 background: -webkit-linear-gradient(to bottom, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
                 background: linear-gradient(to bottom, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
                 ",
-                "gradient-blue" : "background: #1488CC;  /* fallback for old browsers */
+                "hb__gradient-blue" : "background: #1488CC;  /* fallback for old browsers */
                 background: -webkit-linear-gradient(to bottom, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
                 background: linear-gradient(to bottom, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
                 ",
-                "gradient-special": "background: #FC466B;  /* fallback for old browsers */
+                "hb__gradient-special": "background: #FC466B;  /* fallback for old browsers */
                 background: -webkit-linear-gradient(to bottom, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
                 background: linear-gradient(to bottom, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
                 "
          }
-        }
-        {
-                "data": {
-                "spel_id": "2012-09-24 15:43:56",
-                "locatie": "white room",
-                "speler": "Arne",
-                "sum(punten)": "17"
-                }
+        
                 },
         
 ]
