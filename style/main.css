@@ -138,7 +138,7 @@ input {
   display: none;
 }
 
-.left-side-menu {
+.leftSideMenu {
   position: fixed;
   left: -20%;
   height: 100VH;
