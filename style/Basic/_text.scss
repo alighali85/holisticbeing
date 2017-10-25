@@ -1,5 +1,29 @@
 @import "./colors";
 
-$hb__defualtFontSize: 12px;
-$hb__fontFamily:'Open Sans', sans-serif;
-$hb
+$hb__textFontSize: 12px;
+$hb__textFontFamily:'Open Sans', sans-serif;
+$hb__textFontColor: black;
+
+.hb__textH1 {
+    font-size: $hb__textFontSize*2;
+}
+
+.hb__textH2 {
+    font-size: $hb__textFontSize*1.5;
+}
+
+.hb__textH3 {
+    font-size: $hb__textFontSize*1.25;
+}
+
+.hb__textH4 {
+    font-size: $hb__textFontSize*1;
+}
+
+.hb__textH5 {
+    font-size: $hb__textFontSize*2;
+}
+
+.hb__textH6 {
+    font-size: $hb__textFontSize*2;
+}
