@@ -1,19 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,400i,600,700,800');
 @import "./colors";
 
-$hb__textFontSize: 12px;
-$hb__textFontFamily:'Open Sans', sans-serif;
-$hb__textFontColor: black;
+.hb__text {
+    $hb__textFontSize: 12px;
+    $hb__textFontFamily:'Open Sans', sans-serif;
+    $text-decoration:none;    
+    $hb__textFontColor: black;
+}
 
-.hb__textH1 {
+.hb__textH1--white {
+    font-family: 'Open Sans', sans-serif;
     font-size: $hb__textFontSize*2;
+    color: $hb__basicColorBlack;
+}
+
+.hb__textH1--orange {
+    font-size: $hb__textFontSize*2;
+    color: $hb__basicColorBlack;
+}
+.hb__textH1--blue {
+    font-size: $hb__textFontSize*2;
+    color: $hb__basicColorBlack;
 }
 
 .hb__textH2 {
     font-size: $hb__textFontSize*1.5;
+    color: $hb__basicColorBlack;
 }
 
 .hb__textH3 {
     font-size: $hb__textFontSize*1.25;
+    color:  $hb__basicColorBlack;
 }
 
 .hb__textH4 {
