@@ -2,8 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,400i,600,700,800');
 @import "./colors";
 
-.hb__text {
-    $hb__textFontSize: 12px;
+
+$hb__textFontSize: 12px;
+$hb__textFontFamily:'Open Sans', sans-serif;
+$text-decoration:none;    
+$hb__textFontColor: black;
+
+
+.hb__basicText {
     $hb__textFontFamily:'Open Sans', sans-serif;
     $text-decoration:none;    
     $hb__textFontColor: black;
