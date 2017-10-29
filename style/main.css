@@ -22,6 +22,12 @@ header {
   z-index: 999;
 }
 
+.hb__mainContainer {
+  height:400px;
+  background-color: light-gray;
+  margin-top: 100vh;
+}
+
 .page-width-wraper {
   max-width: 1170px;
 }
