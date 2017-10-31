@@ -24,8 +24,19 @@ header {
 
 .hb__mainContainer {
   height:400px;
-  background-color: light-gray;
-  margin-top: 100vh;
+  margin-top: 90vh;
+}
+
+.hb__mainContainer__clmoun {
+  padding: 14px;
+  border: 2px solid lightgray;
+}
+
+.hb__secondaryPart {
+  height: 400px;
+  background-image: url('../img/part.jpg');
+  border-radius: 10px;
+  border: 2px solid lightgray;
 }
 
 .page-width-wraper {
@@ -129,15 +140,6 @@ i {
   position: absolute;
   right: 20px;
   opacity: 0.5;
-}
-
-p {
-  color: white;
-  font-size: 30px;
-  font-family: 'Lobster', cursive;
-  font-weight:300;
-  text-shadow: 1px 1px 3px black;
-  opacity: 0.7;
 }
 
 input {
