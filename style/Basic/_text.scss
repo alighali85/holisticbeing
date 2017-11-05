@@ -13,31 +13,25 @@ $hb__textFontColor: black;
 }
 
 .hb__textH1--white {
-    @extend hb__basicText;
     font-size: $hb__textFontSize*2;
 }
 
 .hb__textH2 {
-    @extend hb__basicText;
     font-size: $hb__textFontSize*1.5;
 }
 
 .hb__textH3 {
-    @extend hb__basicText;
     font-size: $hb__textFontSize*1.25;
 }
 
 .hb__textH4 {
-    @extend hb__basicText;
     font-size: $hb__textFontSize;
 }
 
 .hb__textH5 {
-    @extend hb__basicText;
     font-size: $hb__textFontSize*0.75;
 }
 
 .hb__textH6 {
-    @extend hb__basicText;
     font-size: $hb__textFontSize*0,50;
 }
