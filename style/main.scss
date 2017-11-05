@@ -1,15 +1,6 @@
-$background-blue:lightblue;
-
-html {
-    height: 100%;
-}
-body,html {
-    margin: 0px;
-    padding: 0px;
-    height:100%;
-    width: 100%;
-}
-
-h1 {
-    background-color: $background-blue;
-}
+@import './Basic/color';
+@import './Basic/basic';
+@import './Basic/text';
+@import './Blocks/header';
+@import './Blocks/footer';
+@import './Blocks/block-container';

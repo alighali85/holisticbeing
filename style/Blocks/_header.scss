@@ -1,0 +1,25 @@
+
+
+.hb__header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .hb__header__navbar {
+    list-style: none;
+    border: solid;
+    display: inline-block;
+  }
+  
+  .hb__header__navbar__item {
+    display: inline;
+    margin-right: 10px; 
+  }
+  
+  .hb__header__sideMenu--icon {
+    border: solid;
+    height: 40px;
+    width: 40px;
+  }
