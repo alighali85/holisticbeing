@@ -1,4 +1,15 @@
-@import "./basics/color";
-@import "./basic/text";
-@import "./items";
-@import "./blocks";
+@import '../Basic/text';
+@import '../Blocks/header';
+@import '../Blocks/footer';
+@import '../Basic/color';
+
+.hb__body__websiteName {
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 30vh;
+    transform: translate(-50%, 0%);
+    font-size: $hb__text--h1 * 1.5;
+    color: $hb__basicColor--white;
+    text-align: center;
+}

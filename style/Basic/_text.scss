@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,400i,600,700,800');
 
 $hb__textFontSize: 12px;
+$hb__text--h1: $hb__textFontSize * 2;
 $hb__textFontFamily:'Open Sans', sans-serif;
 $text-decoration:none;    
 $hb__textFontColor: black;
@@ -12,26 +13,31 @@ $hb__textFontColor: black;
     $hb__textFontColor: black;
 }
 
-.hb__textH1--white {
+.hb__text--h1 {
     font-size: $hb__textFontSize*2;
 }
 
-.hb__textH2 {
+.hb__text--h2 {
     font-size: $hb__textFontSize*1.5;
 }
 
-.hb__textH3 {
+.hb__text--h3 {
     font-size: $hb__textFontSize*1.25;
 }
 
-.hb__textH4 {
+.hb__text--h4 {
     font-size: $hb__textFontSize;
 }
 
-.hb__textH5 {
+.hb__text--h5 {
     font-size: $hb__textFontSize*0.75;
 }
 
-.hb__textH6 {
+.hb__text--h6 {
     font-size: $hb__textFontSize*0,50;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
