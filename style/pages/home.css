@@ -51,6 +51,16 @@ a {
 .hb__socialMedia--icon {
   max-width: 30px; }
 
+.hb__body {
+  margin: 0px;
+  padding: 0px; }
+  .hb__body .hb__body__mainImage {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/main-bg.jpg"); }
+  .hb__body .hb__body__contianer {
+    margin: 14px 0px 14px 0px; }
+
 .hb__body__websiteName {
   width: 300px;
   position: absolute;
