@@ -1,10 +1,11 @@
 @import '../Basic/color';
 
 .hb__footer, footer {
-    height: 200px;
-    background-color: $hb__basicColor--blue;
-    position: relative;
-    bottom: 0px;
+  position: relative;
+  bottom: 0px;
+  height: 200px;
+  background-color: $hb__basicColor--blue;
+  color: white;
   }
 
 .hb__socialMedia--icon {
