@@ -1,5 +1,43 @@
 
     .hb__body__container__col--dark {
-        background-color: rgba($color: black, $alpha: 0.8);
-        height: 100%;
+        background-color: rgba($color: white, $alpha: 0.8);
+        margin: 28px;
+    }
+
+    .hb__body__container__col__icon {
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+        margin: 14px;
+    }
+
+    .hb__body__container__col__button {
+        padding: 14px 28px 14px 28px;
+        letter-spacing: 1.2;
+        text-align: center;
+        margin: 14px;
+        border: none;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .hb__body__container__col__button--blue {
+        padding: 14px 28px 14px 28px;
+        letter-spacing: 1.2;
+        text-align: center;
+        background-color: $hb__basicColor--blue;
+        margin: 14px;
+        border: none;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .hb__body__container__col__button--orang {
+        @extend .hb__body__container__col__button;
+        background-color: $hb__basicColor--orange;
+    }
+
+    .hb__body__container__col__button--pink {
+        @extend .hb__body__container__col__button;
+        background-color: $hb__basicColor--pink;
     }

@@ -8,36 +8,44 @@ $text-decoration:none;
 $hb__textFontColor: black;
 
 .hb__basicText {
-    $hb__textFontFamily:'Open Sans', sans-serif;
-    $text-decoration:none;    
-    $hb__textFontColor: black;
+    font-family: $hb__textFontFamily;
+    text-decoration: $text-decoration;  
+    letter-spacing: 1px;  
 }
 
 .hb__text--h1 {
-    font-size: $hb__textFontSize*2;
+    @extend .hb__basicText;
+    font-size: $hb__textFontSize*2.5;
 }
 
 .hb__text--h2 {
-    font-size: $hb__textFontSize*1.5;
+    @extend .hb__basicText;
+    font-size: $hb__textFontSize*1.75;    
 }
 
 .hb__text--h3 {
-    font-size: $hb__textFontSize*1.25;
+    @extend .hb__basicText;    
+    font-size: $hb__textFontSize*1.5;
 }
 
 .hb__text--h4 {
-    font-size: $hb__textFontSize;
+    @extend .hb__basicText;    
+    font-size: $hb__textFontSize*1.25;
+    padding: 14px;
 }
 
 .hb__text--h5 {
+    @extend .hb__basicText;    
     font-size: $hb__textFontSize*0.75;
 }
 
 .hb__text--h6 {
+    @extend .hb__basicText;    
     font-size: $hb__textFontSize*0,50;
 }
 
 a {
+    @extend .hb__basicText;    
     text-decoration: none;
     color: inherit;
 }
