@@ -2,6 +2,9 @@
 @import '../Blocks/header';
 @import '../Blocks/footer';
 @import '../Basic/color';
+@import '../Blocks/block-container';
+@import '../Blocks/footer';
+@import '../Components/column';
 
 .hb__body__websiteName {
     width: 300px;
@@ -11,5 +14,4 @@
     transform: translate(-50%, 0%);
     font-size: $hb__text--h1 * 1.5;
     color: $hb__basicColor--white;
-    text-align: center;
-}
+    text-align: center;}
