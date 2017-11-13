@@ -11,7 +11,8 @@ $hb__basicColor--lightblack: #2c3e50;
 .hb__basicText {
     font-family: $hb__textFontFamily;
     text-decoration: $text-decoration;  
-    letter-spacing: 1px;  
+    letter-spacing: 1px;
+    font-weight: 200;
 }
 
 .hb__text--h1 {
@@ -22,7 +23,8 @@ $hb__basicColor--lightblack: #2c3e50;
 .hb__text--h2 {
     @extend .hb__basicText;
     font-size: $hb__textFontSize*1.75;
-    color: $hb__basicColor--lightblack;   
+    color: $hb__basicColor--lightblack; 
+    font-weight: 200;  
 }
 
 .hb__text--h3 {
