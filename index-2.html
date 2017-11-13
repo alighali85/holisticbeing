@@ -3,12 +3,15 @@
         <meta name="viewport" content="width= device-width, initial-scale= 1.0">
         <link rel="stylesheet" type="text/css" href="style/main.css">
         <link rel="stylesheet" type="text/css" href="style/pages/home.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="./script/websiteHandler.js"></script>
     </head>
 
     <body class= "hb__body">
         <div class= "hb__body__mainImage">
             <div class="hb__body__websiteName">Holistic Being</div>
+            <div class= "hb__body__websiteName--subText hb__body__websiteName">sub text goes her</div>
                 <div class= "hb__header container-fulid">
                     <ul class= "hb__header__navbar">
                         <li class= "hb__header__navbar__item">
@@ -21,7 +24,7 @@
                             <a href= "#">Training</a>
                         </li>
                         <li class= "hb__header__navbar__item">
-                            <a href= "#">Lama(about)</a>
+                            <a href= "#lama">Lama(about)</a>
                         </li>
                         <li class= "hb__header__navbar__item"> 
                             <a href= "#">connect</a>
@@ -46,13 +49,13 @@
 
             <div class="container-flouid hb__body__container text-center" style="background-color:#ecf0f1; padding:28px 0px">
                 <h1 class="hb__text--h1"> Holistic in Videos </h1>
-                <h2 class="hb__text--h2"> See what does it means from the teachers</h2>
-                <iframe width="100%" height="400" src="https://www.youtube.com/embed/NuoLMoLi7Z0" frameborder="0" allowfullscreen></iframe>
+                <h2 class="hb__text--h2"> See what does it means from the teachers</h2><br><br>
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/NuoLMoLi7Z0" frameborder="0" allowfullscreen></iframe><br>
                 <p class="hb__text--h3"> </p>
                 <button class= "hb__body__container__col__button--orang"> watch more on youtube</button>
             </div>
 
-            <div class="container-flouid">
+            <div class="container-flouid" id= "training">
                 <div class="container hb__body__container text-center">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2 hb__body__container__col--dark">
@@ -83,7 +86,7 @@
                 </div>
             </div>
             
-            <div class="container-flouid " style= "background-image: url('./img/lama.jpg')">
+            <div class="container-flouid" id= "lama" style= "background-image: url('./img/lama.jpg')">
                 <div class="container hb__body__container text-center">
                     <div class="col-md-8 col-md-offset-2 hb__body__container__col--dark">
                         <h1 class="hb__text--h1"> Lama </h1>
@@ -97,22 +100,25 @@
 
             <div class="container-flouid ">
                 <div class="container hb__body__container text-center">
-                    <div class="col-md-8 col-md-offset-2 hb__body__container__col--dark">
+                    <div class="col-md-6 col-md-offset-3 hb__body__container__col--dark">
                         <h1 class="hb__text--h1"> Contact me  </h1>
-                        <h2 class="hb__text--h2"> lets kep in touch, register now free!</h2>
+                        <h2 class="hb__text--h2"> lets kep in touch, register now free!</h2><br>
                         <form>
-                                <div class='name'>
-                                  <input class='' placeholder='First Name' type='text'>
-                                  <input class='' placeholder='Last Name' type='text'>
+                            <div class="row">
+                                <div class= "form-group">
+                                    <label for="name"></label>
+                                    <input type="text" class="form-control" id="name" placeholder="your name">
                                 </div>
-                                <div class='contact'>
-                                  <input class='' placeholder='E-mail Address' type='text'>
+                                <div class= "form-group">
+                                    <label for="email"></label>
+                                    <input type="text" class="form-control" id="email" placeholder="your email">
                                 </div>
-                                <div class=''>
-                                  <textarea placeholder='Your Suggestions Here!'></textarea>
-                                </div>
-                                <button class= "hb__body__container__col__button--pink"> Send me a message</button>
-                                
+                            </div><br>
+                            <div class="form-group">
+                                    <label for="message"></label>
+                                    <textarea class="form-control" placeholder="your message" id="message" rows="5"></textarea>
+                                  </div>
+                            <button class= "hb__body__container__col__button--blue"> Send Me!</button>
                         </form>
                     </div>
                 </div>

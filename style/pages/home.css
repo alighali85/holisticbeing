@@ -5,14 +5,16 @@
 .hb__basicText, .hb__text--h1, .hb__text--h2, .hb__text--h3, .hb__text--h4, .hb__text--h5, .hb__text--h6, a {
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  font-weight: 200; }
 
 .hb__text--h1 {
   font-size: 30px; }
 
 .hb__text--h2 {
   font-size: 21px;
-  color: #2c3e50; }
+  color: #2c3e50;
+  font-weight: 200; }
 
 .hb__text--h3 {
   font-size: 18px; }
@@ -31,7 +33,7 @@ a {
   text-decoration: none;
   color: inherit; }
 
-.hb__form__header {
+.hb__header {
   height: 80px;
   max-width: 1179px;
   display: flex;
@@ -39,16 +41,16 @@ a {
   justify-content: space-between;
   color: white !important; }
 
-.hb__form__header__navbar {
+.hb__header__navbar {
   list-style: none;
   display: inline-block; }
 
-.hb__form__header__navbar__item {
+.hb__header__navbar__item {
   display: inline;
   margin-right: 10px;
   color: white; }
 
-.hb__form__header__sideMenu--icon {
+.hb__header__sideMenu--icon {
   height: 40px;
   width: 40px; }
 
@@ -87,14 +89,16 @@ a {
 .hb__basicText, .hb__text--h1, .hb__text--h2, .hb__text--h3, .hb__text--h4, .hb__text--h5, .hb__text--h6, a {
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  font-weight: 200; }
 
 .hb__text--h1 {
   font-size: 30px; }
 
 .hb__text--h2 {
   font-size: 21px;
-  color: #2c3e50; }
+  color: #2c3e50;
+  font-weight: 200; }
 
 .hb__text--h3 {
   font-size: 18px; }
@@ -132,16 +136,23 @@ a {
   font-weight: 200;
   border: none;
   color: white;
-  border-radius: 5px; }
+  border-radius: 5px;
+  transition: all 300ms ease-in-out; }
 
 .hb__body__container__col__button--blue {
   background-color: #448AFF; }
+  .hb__body__container__col__button--blue:hover {
+    box-shadow: 2px 5px 5px lightgray; }
 
 .hb__body__container__col__button--orang {
   background-color: #FF5722; }
+  .hb__body__container__col__button--orang:hover {
+    box-shadow: 2px 5px 5px lightgray; }
 
 .hb__body__container__col__button--pink {
   background-color: #FF8A80; }
+  .hb__body__container__col__button--pink:hover {
+    box-shadow: 2px 5px 5px lightgray; }
 
 .hb__body__websiteName {
   width: 300px;
@@ -154,94 +165,3 @@ a {
   text-align: center; }
 
 /*# sourceMappingURL=home.css.map */
-
-form__container {
-  width: 600px;
-  margin: 2em auto;
-  overflow: hidden;
-  background: white;
-  border-radius: 5px;
-}
-
-.message, .contact, .name, form__footer, form__header, form__footer, textarea {
-  display: block;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  clear: both;
-  overflow: hidden;
-}
-
-form__header, form__footer {
-  height: 75px;
-  background: rgba(0, 0, 0, 0.05);
-  line-height: 75px;
-  padding-left: 20px;
-  border-radius: 5px 5px 0 0;
-}
-form__header h1, form__footer h1 {
-  font-size: 1.2em;
-  text-transform: uppercase;
-  color: rgba(51, 51, 51, 0.4);
-}
-
-.first, .last {
-  float: left;
-  width: 278px;
-  margin: 0;
-  padding: 0 0 0 20px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  height: 50px;
-}
-
-.last {
-  width: 279px;
-  border-left: 0;
-}
-
-.email, textarea {
-  height: 50px;
-  width: 578px;
-  line-height: 50px;
-  padding: 0 0 0 20px;
-  border-top: 0;
-  border-left: 1px solid rgba(0, 0, 0, 0.1);
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-textarea {
-  height: 200px;
-}
-
-form__footer {
-  height: 49px;
-  border-top: 1px dashed rgba(0, 0, 0, 0.3);
-  border-radius: 0 0 5px 5px;
-  padding-left: 0;
-  padding-right: 20px;
-}
-form__footer button {
-  height: 32px;
-  background: #e74c3c;
-  border-radius: 5px;
-  border: 0;
-  margin: 7px 0;
-  color: white;
-  float: right;
-  padding: 0 20px 0 20px;
-  border-bottom: 3px solid #c0392b;
-  transition: all linear .2s;
-}
-form__footer button:hover {
-  background: #c0392b;
-}
-form__footer button:focus {
-  outline: none;
-}
-
-.first:focus, .last:focus, .email:focus, textarea:focus, textarea:focus {
-  outline: none;
-  background: rgba(52, 152, 219, 0.1);
-  color: rgba(51, 51, 51, 0.7);
-}
