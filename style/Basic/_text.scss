@@ -6,6 +6,7 @@ $hb__text--h1: $hb__textFontSize * 2;
 $hb__textFontFamily:'Open Sans', sans-serif;
 $text-decoration:none;    
 $hb__textFontColor: black;
+$hb__basicColor--lightblack: #2c3e50;
 
 .hb__basicText {
     font-family: $hb__textFontFamily;
@@ -20,7 +21,8 @@ $hb__textFontColor: black;
 
 .hb__text--h2 {
     @extend .hb__basicText;
-    font-size: $hb__textFontSize*1.75;    
+    font-size: $hb__textFontSize*1.75;
+    color: $hb__basicColor--lightblack;   
 }
 
 .hb__text--h3 {

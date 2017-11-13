@@ -1,4 +1,6 @@
 
+    @import '../Basic/text';
+
     .hb__body__container__col--dark {
         background-color: rgba($color: white, $alpha: 0.8);
         margin: 28px;
@@ -15,21 +17,17 @@
         padding: 14px 28px 14px 28px;
         letter-spacing: 1.2;
         text-align: center;
-        margin: 14px;
+        margin: 14px 0px 28px 0px;
+        font-size: $hb__textFontSize*1.75;
+        font-weight: 200;
         border: none;
         color: white;
         border-radius: 5px;
     }
 
     .hb__body__container__col__button--blue {
-        padding: 14px 28px 14px 28px;
-        letter-spacing: 1.2;
-        text-align: center;
+        @extend .hb__body__container__col__button;
         background-color: $hb__basicColor--blue;
-        margin: 14px;
-        border: none;
-        color: white;
-        border-radius: 5px;
     }
 
     .hb__body__container__col__button--orang {
