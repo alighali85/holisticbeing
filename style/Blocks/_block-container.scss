@@ -8,9 +8,26 @@
       background-image: url('../../img/main-bg.jpg');
   }
 
+  .hb__body__mainImage--half {
+    width: 100%;
+    height: 50vh;
+    background-image: url('../../img/main-bg.jpg');
+}
+
+  .hb__body__pageMainImage {
+    position: relative;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      width:200px;
+      height: 200px;
+      border: 4px solid $hb__basicColor--orange;
+  }
+
   .hb__body__container {
     min-height: 200px;
     background-size: cover;
     background-position: center;
   }
 }
+
