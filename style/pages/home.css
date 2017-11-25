@@ -2,12 +2,17 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,400i,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,400i,600,700,800");
-#img1, img2 {
-  margin-top: 800px;
+.img {
+  margin-top: 100px;
+  width:200px; height:100px;
   position: relative;
-  width:600px; height:300px;
   left:-50%;
-  transition: all 300ms ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.img__active{
+  left: 10%;
+  transition: all 1s ease-in-out;
+
 }
 .hb__basicText, .hb__text--h1, .hb__text--h2, .hb__text--h3, .hb__text--h4, .hb__text--h5, .hb__text--h6, a {
   font-family: "Open Sans", sans-serif;
