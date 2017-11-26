@@ -3,13 +3,16 @@
 .hb__header {
     height: 80px;
     max-width: 1179px;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     color: white !important;
+    z-index: 999;
+    position: fixed;
   }
   
   .hb__header__navbar {
+    display: flex;
+    position: fixed;
     list-style: none;
     display: inline-block;
   }
