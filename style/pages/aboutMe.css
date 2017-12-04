@@ -34,13 +34,13 @@ a {
   color: inherit; }
 
 .hb__header {
-  height: 80px;
-  max-width: 1179px;
+  padding: 14px 0px;
   align-items: center;
   justify-content: space-between;
   color: white !important;
   z-index: 999;
-  position: fixed; }
+  position: fixed;
+  top: 0px; }
 
 .hb__header__navbar {
   display: flex;

@@ -33,10 +33,6 @@
         })
 
     }
-                
-
-
-
     $(document).on('click', 'a[href^="#"]', function (event) {
         event.preventDefault();
         $('html, body').animate({
@@ -44,10 +40,17 @@
         },500);
     });
 
-$(function(){
-    $('.hb__body__page__mainImage').on('click', function() {
-        console.log("url(./img/" + backgroundImages.aboutMe+ ")" );
-        $(this).attr('src',"url(./img/" + backgroundImages.aboutMe+ ")" );
-        $(this).css('border', 'solid');
+    $(function(){
+        $('.hb__body__page__mainImage').on('click', function() {
+            console.log("url(./img/" + backgroundImages.aboutMe+ ")" );
+            $(this).attr('src',"url(./img/" + backgroundImages.aboutMe+ ")" );
+            $(this).css('border', 'solid');
+        });
     });
-});
+
+    var pagesLinks = { home: '/index.hmtl', holistingLiving: '/holistingLivivng.html',videos: '/videos.html', training : '/training.html', aboutLama: 'aboutMe.html', contactMe: 'contacMe.html' };
+
+    function goToPage(pageName) {
+        var fullpageLink = pagesLinks[pageName];
+        console.log(pageName) ;
+    }
