@@ -2,18 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,400i,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,400i,600,700,800");
-.img {
-  margin-top: 100px;
-  width:200px; height:100px;
-  position: relative;
-  left:-50%;
-  transition: all 1s ease-in-out;
-}
-.img__active{
-  left: 10%;
-  transition: all 1s ease-in-out;
-
-}
 .hb__basicText, .hb__text--h1, .hb__text--h2, .hb__text--h3, .hb__text--h4, .hb__text--h5, .hb__text--h6, a {
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
@@ -46,14 +34,17 @@ a {
   color: inherit; }
 
 .hb__header {
-  height: 80px;
-  max-width: 1179px;
-  display: flex;
+  padding: 14px 0px;
   align-items: center;
   justify-content: space-between;
-  color: white !important; }
+  color: white !important;
+  background-color: #FF5722;
+  z-index: 999;
+  position: fixed;
+  top: 0px; }
 
 .hb__header__navbar {
+  display: flex;
   list-style: none;
   display: inline-block; }
 
