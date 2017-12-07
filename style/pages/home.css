@@ -41,6 +41,8 @@ a {
   background-color: #FF5722;
   z-index: 999;
   position: fixed;
+  width: 100vw;
+  margin: 0px;
   top: 0px; }
 
 .hb__header__navbar {
