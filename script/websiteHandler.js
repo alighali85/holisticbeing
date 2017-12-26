@@ -8,6 +8,7 @@
     var  $animationElements = $('.img');
     var $window = $(window);
 
+
     $window.on('scroll', checkIfInView);
     $window.on('scroll resize', checkIfInView);
     $window.trigger('scroll');
@@ -54,3 +55,16 @@
         var fullpageLink = pagesLinks[pageName];
         console.log(pageName) ;
     }
+// google maps//
+
+function initMap() {
+    var uluru = {lat: 60.679491, lng: 17.146042};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 4,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }
