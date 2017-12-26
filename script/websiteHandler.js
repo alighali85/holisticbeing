@@ -8,6 +8,7 @@
     var  $animationElements = $('.img');
     var $window = $(window);
 
+
     $window.on('scroll', checkIfInView);
     $window.on('scroll resize', checkIfInView);
     $window.trigger('scroll');
@@ -55,11 +56,15 @@
         console.log(pageName) ;
     }
 // google maps//
-function myMap() {
-    var mapOptions = {
-        center: new google.maps.LatLng(51.5, -0.12),
-        zoom: 10,
-        mapTypeId: google.maps.MapTypeId.HYBRID
-    }
-var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-}
+
+function initMap() {
+    var uluru = {lat: 60.679491, lng: 17.146042};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 4,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }

@@ -107,23 +107,13 @@
                         <div class="col-md-6 col-md-offset-3 hb__body__container__col--dark">
                             <h1 class="hb__text--h1"> Contact me  </h1>
                             <h2 class="hb__text--h2"> lets kep in touch, register now free!</h2><br>
-                            <form>
-                                <div class="row">
-                                    <div class= "form-group">
-                                        <label for="name"></label>
-                                        <input type="text" class="form-control" id="name" placeholder="your name">
-                                    </div>
-                                    <div class= "form-group">
-                                        <label for="email"></label>
-                                        <input type="text" class="form-control" id="email" placeholder="your email">
-                                    </div>
-                                </div><br>
-                                <div class="form-group">
-                                        <label for="message"></label>
-                                        <textarea class="form-control" placeholder="your message" id="message" rows="5"></textarea>
-                                      </div>
-                                <button nclick= "goToPage(pagesLinks.contactMe)" class= "hb__body__container__col__button--blue"> Send Me!</button>
-                            </form>
+                            <form action="https://formspree.io/alifriends@live.com"
+                            method="POST">
+                          <input type="text" name="name">
+                          <input type="email" name="_replyto">
+                          <input type="submit" value="Send">
+                          <input type="hidden" name="_next" value="./thanks.html" />
+                      </form>
                         </div>
                     </div>
                 </div>
