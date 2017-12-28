@@ -12,84 +12,177 @@
                 .hb__body__mainImage{ background-image: url('./img/courses__page--background.jpg') !important;
             background-size: cover;
         }
+
+        input {
+            display: none;
+        }
+        .course__content {
+            position: absolute;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 300ms ease-in-out
+        }
+
+        input:checked + label + .course__content{
+            position: static;
+            margin-top: 0px;
+            max-height: auto;
+            visibility: visible;
+            opacity: 1
+        }
+
+
                 </style>
-                    <div class= "hb__header">
-                        <div>
-                        <a href= "#"><h4>Holistic Bing</h4></a>
-                        <ul class= "hb__header__navbar">
-                            <li class= "hb__header__navbar__item">
-                                <a href= "#holistic-living">Holistic living</a>
-                            </li>
-                            <li class= "hb__header__navbar__item">
-                                <a href= "#training">Training</a>
-                            </li>
-                            <li class= "hb__header__navbar__item">
-                                <a href= "#training">Courses</a>
-                            </li>
-                            <li class= "hb__header__navbar__item">
-                                <a href= "#lama">Lama(about)</a>
-                            </li>
-                            <li class= "hb__header__navbar__item"> 
-                                <a href= "#contact">Contact me</a>
-                            </li>
-                        </ul>
-                    </div>
-                        <ul class= "hb__header__navbar">
-                            <li><a href= "" class= "hb__header__navbar__item"><img class="hb__socialMedia--icon" src="./icon/hb__icon__twitter.svg"></a></li>
-                            <li><a href= "" class= "hb__header__navbar__item"><img class="hb__socialMedia--icon" src="./icon/hb__icon__facebook.svg"></a></li>
-                            <li><a href= "" class= "hb__header__navbar__item__button--subscribe"> subscribe</a></li>
-                        </ul>
-            </div>
+        <div class= "hb__header">
+            <div>
+            <a href= "#"><h4>Holistic Bing</h4></a>
+            <ul class= "hb__header__navbar">
+                <li class= "hb__header__navbar__item">
+                    <a href= "#holistic-living">Holistic living</a>
+                </li>
+                <li class= "hb__header__navbar__item">
+                    <a href= "#training">Training</a>
+                </li>
+                <li class= "hb__header__navbar__item">
+                    <a href= "#training">Courses</a>
+                </li>
+                <li class= "hb__header__navbar__item">
+                    <a href= "#lama">Lama(about)</a>
+                </li>
+                <li class= "hb__header__navbar__item"> 
+                    <a href= "#contact">Contact me</a>
+                </li>
+            </ul>
+        </div>
+        <ul class= "hb__header__navbar">
+            <li><a href= "" class= "hb__header__navbar__item"><img class="hb__socialMedia--icon" src="./icon/hb__icon__twitter.svg"></a></li>
+            <li><a href= "" class= "hb__header__navbar__item"><img class="hb__socialMedia--icon" src="./icon/hb__icon__facebook.svg"></a></li>
+            <li><a href= "" class= "hb__header__navbar__item__button--subscribe"> subscribe</a></li>
+        </ul>
+        </div>
     
-            <div class= "hb__body__mainImage">
-                <div class="hb__body__websiteName">Courses</div>
-                <div class= "hb__body__websiteName--subText">welcom!</div>
-                <div class= "hb__body__websiteName--start"><a href="#holistic-living">See availale courses now</a></div>
-                <div class= "hb__body__websiteName--quote">If you desire and through your self-knowing, you can help others experience similar levels of love, 
-                    healing and awareness!</div>
-                </div>
-            <div class= "block">
-                    <div class="row col-md-10 col-md-offset-1" style= "margin-top: 28px">
-                        <div class="col-md-4 text-center">
+        <div class= "hb__body__mainImage">
+            <div class="hb__body__websiteName">Courses</div>
+           
+           </div>
+        </div>
+            
+
+        <div class="container-flouid hb__body__container" id= "holistic-living" style="background-image:url('')">
+            <div class="container text-left">
+                <div class= "row">
+                    <div class="col-md-2 col-md-offset-2 hb__body__container__col--dark">
                             <img src= "./img/course__mindeating.jpg" class="hb__body__container__col__icon">
-                            <h2 class="hb__text--h1">Mindful eating for optimal health</h2><br>
-                             <button nclick= "goToPage(pagesLinks.training)" class= "hb__body__container__col__button--pink">Go to the course</button>
-                        </div>
-
-                        <div class="col-md-4 text-center">
-                            <img src= "./img/course__activemeditation.jpg" class="hb__body__container__col__icon">
-                            <h2 class="hb__text--h1">Active meditation (Kundalini)</h2><br>
-                            <button nclick= "goToPage(pagesLinks.training)" class= "hb__body__container__col__button--pink">Go to the course</button>
-                        </div>
-
-                        <div class="col-md-4 text-center">
-                            <img src= "./img/course__hloistichealth.jpg" class="hb__body__container__col__icon">
-                            <h2 class="hb__text--h1">Introduction to holistic health</h2><br>
-                            <button nclick= "goToPage(pagesLinks.training)" class= "hb__body__container__col__button--pink">Go to the course</button>
-                        </div>
                     </div>
-                </div>
-        <div class= "block">
-                <div class="container-flouid hb__body__container" id= "holistic-living" style="background-image:url('./img/holistic living background.jpg')">
-                    <div class="container text-center">
-                        <div class="col-md-8 col-md-offset-2 hb__body__container__col--dark">
-                            <h1 class="hb__text--h1"> Holisting Living </h1>
-                            <h2 class="hb__text--h2"> Holistic living is a way of exploring the profound within and around us</h2>
-                            <img src= "" class="hb__body__container__col__icon">
-                            <p class="hb__text--h3">In dwelling, live close to the ground. In thinking, keep to the simple. In conflict, be fair and generous. In governing, don't try to control. In work, do what you enjoy. In family life, be completely present (Lao Tzu)</p>
-                            <button onclick= "goToPage(aboutLama)" class= "hb__body__container__col__button--pink"> know more about holistic living</button>
+                <div class="col-md-6 hb__body__container__col--dark">
+                    <h1 class="hb__text--h1"> Mindful eating for optimal health</h1>
+                    <h2 class="hb__text--h2">Prerequisites:<br><p></p></h2>
+                    No knowledge or previous experiences are required. Everybody is welcome regardless of her or his age, background, and perspective.
+                    This course can be given to individuals, small groups and large audience.</p><br><br>
+                    <input type="checkbox" name="Mindful" id= "mind">
+                    <label for= "mind"><p class="hb__text--h2">Content, goals, and benefits:<br></p>
+                        <div>
+                        In thinking, keep to the simple. In conflict, be fair and generous. In governing, don't try to control. 
+                        In work, do what you enjoy.
+                            In family life, be completely present (Lao Tzu). Details...
                         </div>
+                        </label>
+                    <div class="course__content">
+                        In mindfulness the mind is completely attending to what is happening at the present moment, 
+                        watching with calm and acceptance feelings, thoughts, and bodily sensation when they arise.<br><br>
+
+                        Mindful eating means being fully attentive to our food at all time from choosing and buying to preparing and serving till consuming and digesting.<br><br>
+                        This has tremendous proven results not only on the physical body but also on mind, feeling,
+                        emotions and overall health. In addition to craving control and weight management some benefits include the development of satisfaction,
+                        trust, love and positive thinking in ones self, feelings and actions.<br><br>
+                        In this course we combine ancient wisdom with modern nutrition and current scientific research, not only to answer questions such as what to eat but to be more conscious about how, how much, why, when, where and with whom we eat.
+                        Important topics such as vegetarianism, dieting, and food supplements are covered.<br><br>
+                        <strong>Layout: </strong>Questions and information on mindfulness in general and mindful eating in particular and related challenges and difficulties are discussed.
+                        This course can includes a few sessions about healthy meddle-eastern food, recipes and methods of cooking.
+                        </p>
                     </div>
                 </div>
             </div>
-
-                    <div class="container-flouid" id= "training">
-                        <div class="container hb__body__container text-center">
-                           
+            </div>
+        </div>
+<hr>
+        <div class="container-flouid hb__body__container" id= "holistic-living" style="background-image:url('')">
+                <div class="container text-left">
+                    <div class= "row">
+                        <div class="col-md-2 col-md-offset-2 hb__body__container__col--dark">
+                                <img src= "./img/course__activemeditation.jpg" class="hb__body__container__col__icon">
+                        </div>
+                    <div class="col-md-6 hb__body__container__col--dark">
+                        <h1 class="hb__text--h1">Introduction to holistic health</h1>
+                        <h2 class="hb__text--h2">Prerequisites:<br><p></p></h2>
+                        No knowledge or previous experiences are required.<br>
+                        Everybody is welcome regardless of her or his age, background, and perspective.</p><br><br>
+                        <input type="checkbox" name="Mindful" id= "holistic">
+                        <label for= "holistic"><p class="hb__text--h2">Content, goals, and benefits:<br></p>
+                            <div>
+                            Holistic Health is actually an approach to life. Rather than focusing on illness or specific parts of the body, 
+                            this ancient approach to health considers the whole person and how he or she interacts with his or her environment. Details...
+                            </div>
+                            </label>
+                        <div class="course__content">
+                                Based on the law of nature that a whole is made up of interdependent parts, it emphasizes the connection of mind, body, and spirit. The goal is to achieve maximum well-being, where everything is functioning the very best that is possible.<br><br>
+                                 With Holistic Health people accept responsibility for their own level of well-being, and everyday choices are used to take charge of one’s own health.<br><br>
+                                
+                                Some benefits include higher levels of wellness, awareness, satisfaction as well as preventing illness on the physical, mental, and emotional levels. People enjoy the vitality and well-being that results from their positive lifestyle changes, and are motivated to continue this process throughout their lives.<br><br>
+                            <strong>Layout: </strong><br>Two sessions are focused on the health of the physical body and deal with healthy diet, mindful eating and drinking, and healthy breathing
+                            Two sessions are dedicated to the mental health and deal with understanding the process of thinking and how to achieve more positive thinking
+                            Two sessions are focused on feelings and deal with experiencing positive emotions and enjoying freedom from within
+                            Two sessions are dedicated to relating to oneself and to others and how can one achieve more satisfactions in all relationships
+                            Information about meditation are giving throughout the whole course and we will be meditating for 20 minutes at the end of each session.
                         </div>
                     </div>
-         </div>
-    </div>
+                </div>
+                </div>
+            </div>
+<hr>
+
+            <div class="container-flouid hb__body__container" id= "holistic-living" style="background-image:url('')">
+                    <div class="container text-left">
+                        <div class= "row">
+                            <div class="col-md-2 col-md-offset-2 hb__body__container__col--dark">
+                                    <img src= "./img/course__mindeating.jpg" class="hb__body__container__col__icon">
+                            </div>
+                        <div class="col-md-6 hb__body__container__col--dark">
+                            <h1 class="hb__text--h1"> Active meditation (Kundalini)</h1>
+                            <h2 class="hb__text--h2">Prerequisites:<br><p></p></h2>
+                            No knowledge or previous experiences are required. Everybody is welcome regardless of her or his age, health, background, and perspective.</p><br><br>
+                            <input type="checkbox" name="Mindful" id= "active">
+                            <label for= "active"><p class="hb__text--h2">Content, goals, and benefits:<br></p>
+                                <div>
+                                    Traditional meditations are passive and require us to sit still in silence to achieve a meditative state that can help us in our active life.<br> But this is difficult for modern man who experiences high levels of stress, 
+                                    outer stimulation and demands in daily life. Details...
+                                </div>
+                            </label>
+                            <div class="course__content">
+                                    On the other hand, active meditation in which movement and silence are involved, have been designed to enable us to consciously express and experience repressed feelings and emotions, and develop the ability of watching our thoughts and habitual patterns in a new way. It is more practical for the modern world.<br>
+                                    Examples of active meditations are Nadabrahma, Nataraj, Dynamic and Kundalini..<br><br>
+                                    <strong>Benefits (Physical, mental and emotional):</strong><br>
+                                    This course provides new insights about the nature of the mind, opportunity to meet with other like-minded people, and inspirations on relationships. We achieve:<br>
+                                    · Improved immune system, concentration and over all health.<br>
+                                    · Deep relaxation, inner peace and silence for days after the meditation.<br>
+                                    · Better stress management and freedom from habits and addictions.<br>
+                                    · Increased ability to let go, laugh, and live with joy<br><br>
+                                    <strong>Instructions: </strong>
+                                    Kundalini meditation is one hour long (four stages of 15 minutes) and best practised in the late afternoon or at sunset. <br>
+                                    The first two stages, shaking and dancing, help in moving repressed and blocked energies. When that energy flows dance becomes a total joy. The last two stages, sitting and laying down, enable all this energy to move upwards into silence.<br>
+                                     It is a very effective way of letting go at the end of the day.<br><br>
+
+                                <strong>Layout: </strong>Questions, information on meditations, challenges and difficulties are discussed in the first half hour,
+                                 then one hour of Kundalini active meditation of four stages is explained and practiced.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+        
+
+      
     
         <div class="container-fluid hb__footer"><br><br>
             <div class="row text-center">holistic-living
