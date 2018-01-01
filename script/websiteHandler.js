@@ -49,7 +49,7 @@
         });
     });
 
-    var pagesLinks = { home: '/index.hmtl', holistingLiving: '/holistingLivivng.html',videos: '/videos.html', training : '/training.html', aboutLama: 'aboutMe.html', contactMe: 'contacMe.html' };
+    var pagesLinks = { home: '/index.hmtl', holistingLiving: '/holistingLivivng.html',videos: '/videos.html', training : '/training.html',courses: './courses.html', aboutLama: 'aboutMe.html', contactMe: 'contacMe.html' };
 
     function goToPage(pageName) {
         var fullpageLink = pagesLinks[pageName];
