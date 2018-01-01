@@ -21,7 +21,7 @@
         <style>
         .hb__header__leftMenu { display: flex }
         #mesage {
-            position: relative;
+            position: absolute;
             left: 50%; top:50%;
             transform: translate(-50%, -50%);
             color: white;
@@ -37,13 +37,18 @@ window.location.href = "./index.html";
 }, 5000);
         </script>
     
-    <body class= "hb__body" style="background: #FF8A80">
+    <body class= "hb__body" style="background: #fd746c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9068, #fd746c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9068, #fd746c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ">
         <div class= "container text-center" id="mesage">
             <span class= "fa fa-envelope-open-o" style ="font-size:120px"></span>
             <h1 class= "hb__basicText--h1">
                 we got your message and will back to you soon,<br> thank you for contacting us
             </h1><br><br>
-            <p> you will be redirected to the home page in secondes</p>
+            <p> you will be redirected to the home page in secondes</p><br>
+            <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+            <span class="sr-only">Loading...</span>
         </div>
     </body>
     </html>
