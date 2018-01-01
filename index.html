@@ -1,5 +1,15 @@
 <html>
         <head>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111755796-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-111755796-1');
+        </script>
+        <!-- END OF - Google Analytics -->
             <meta name="viewport" content="width= device-width, initial-scale= 1.0">
             <link rel="stylesheet" type="text/css" href="style/pages/home.css">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -54,9 +64,9 @@
                         <div class="col-md-8 col-md-offset-2 hb__body__container__col--dark">
                             <h1 class="hb__text--h1"> Holisting Living </h1>
                             <h2 class="hb__text--h2"> Holistic living is a way of exploring the profound within and around us</h2>
-                            <img src= "" class="hb__body__container__col__icon">
+                            <img src= "./icon/holistic_icon.png" class="hb__body__container__col__icon">
                             <p class="hb__text--h3">In dwelling, live close to the ground. In thinking, keep to the simple. In conflict, be fair and generous. In governing, don't try to control. In work, do what you enjoy. In family life, be completely present (Lao Tzu)</p>
-                            <button onclick= "goToPage(aboutLama)" class= "hb__body__container__col__button--pink"> know more about holistic living</button>
+                            <button onclick= "window.location.href='./holistingLiving.html'" class= "hb__body__container__col__button--pink"> know more about holistic living</button>
                         </div>
                     </div>
                 </div>
@@ -66,7 +76,7 @@
                     <h2 class="hb__text--h2"> See what does it means from the teachers</h2><br><br>
                     <iframe width="100%" height="400" src="https://www.youtube.com/embed/q1XaNxpX5wU" frameborder="0" allowfullscreen></iframe><br>
                     <p class="hb__text--h3"> </p>
-                    <button nclick= "goToPage(pagesLinks.videos)"class= "hb__body__container__col__button--orang" style= "margin-top: 48px"> watch more on youtube</button>
+                    <button onclick= "window.location.href='https://www.youtube.com/watch?v=99XkiPZLGKc'" class= "hb__body__container__col__button--orang" style= "margin-top: 48px"> watch more on youtube</button>
                 </div>
     
                 <div class="container-flouid" id= "training">
@@ -95,7 +105,7 @@
                                 <p class="hb__text--h3">In this course we combine ancient wisdom with modern nutrition and current scientific research, not only to answer questions such as what to eat but to be more conscious about how, how much, why, when, where and with whom we eat. vegetarianism, dieting, and food supplements are covered.</p>
                             </div>
                         </div>
-                        <button nclick= "goToPage(pagesLinks.training)" class= "hb__body__container__col__button--pink">Start today with training</button>
+                        <button onclick= "window.location.href='./training.html'" class= "hb__body__container__col__button--pink">Start today with training</button>
                         <br><br><br>
                     </div>
                 </div>
@@ -107,7 +117,7 @@
                             <h2 class="hb__text--h2"> couch and trainer for your holistic life</h2>
                             <img src= "./img/lama.jpg" class="hb__body__container__col__icon">
                             <p class="hb__text--h3"> here is some nice words as paragraph you may later add spome more lines as you like it here is some nice words as paragraph you may later add spome more lines as you like it</p>
-                            <button nclick= "goToPage(pagesLinks.aboutLama)"class= "hb__body__container__col__button--blue"> know more</button>
+                            <button onclick= "window.location.href='./aboutme.html'" class= "hb__body__container__col__button--blue"> know more</button>
                         </div>
                     </div>
                 </div>
@@ -118,29 +128,26 @@
                             <h1 class="hb__text--h1"> Contact me  </h1>
                             <h2 class="hb__text--h2"> lets kep in touch, register now free!</h2><br>
                             <div class="row">
-                                    <div class="">
-                                        <form action="https://formspree.io/alifriends@live.com" method="POST">
-                                        <br style="clear:both">
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" id="name" name="Sender name" placeholder="Name" required>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="email" class="form-control" id="email" name="replay to " placeholder="Email" required>
-                                                    </div>
-                                                    <div class="form-group">
-                                                            <input type="hidden" name="_next" value="./thanks.html" />                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" id="subject" name="subject:" placeholder="Subject" required>
-                                                    </div>
-                                                    <div class="form-group">
-                                                    <textarea class="form-control" type="textarea" id="message" placeholder="Message:" maxlength="140" rows="7"></textarea>
-                                                        <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
-                                                    </div>
-                                            
-                                                    <input class= "hb__body__container__col__button--blue" type="submit" value="Send"></form>
-                                            </div>
-                        
+                                <div class="">
+                                    <form action="https://formspree.io/alifriends@live.com" method="POST">
+                                    <br style="clear:both">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="name" name="Sender name" placeholder="Name" required>
                                         </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="email" name="replay to " placeholder="Email" required>
+                                        </div>
+                                        <div class="form-group">
+                                                <input type="hidden" name="_next" value="./thanks.html" />                                    </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="subject" name="subject:" placeholder="Subject" required>
+                                        </div>
+                                        <div class="form-group">
+                                        <textarea class="form-control" type="textarea" id="message" placeholder="Message:" maxlength="140" rows="7"></textarea>
+                                        </div>
+                                        <input class= "hb__body__container__col__button--blue" type="submit" value="Send"></form>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
