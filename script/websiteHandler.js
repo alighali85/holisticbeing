@@ -68,3 +68,11 @@ function initMap() {
       map: map
     });
   }
+
+  $(document).reday(
+
+    function(){
+        $('#nav__mobi').hide();
+        $('label[for="nav__mobi"]').css('display','none');
+    }
+  )
