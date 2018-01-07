@@ -84,7 +84,7 @@ a {
 .hb__footer, footer {
   position: relative;
   bottom: 0px;
-  height: 200px;
+  height: auto !important;
   background-color: #448AFF;
   color: white;
   overflow: hidden; }
@@ -95,7 +95,7 @@ a {
 .hb__footer, footer {
   position: relative;
   bottom: 0px;
-  height: 200px;
+  height: auto !important;
   background-color: #448AFF;
   color: white;
   overflow: hidden; }
