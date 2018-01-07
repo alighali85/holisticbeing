@@ -2,8 +2,9 @@
     @import '../Basic/text';
 
     .hb__body__container__col--dark {
-        background-color: rgba($color: white, $alpha: 0.8);
         margin: 28px;
+        background-color: rgba($color: white, $alpha: 0.8);
+        padding: 14px;
     }
 
     .hb__body__container__col__icon {
