@@ -3,7 +3,7 @@
 .hb__footer, footer {
   position: relative;
   bottom: 0px;
-  height: 200px;
+  height: auto !important;
   background-color: $hb__basicColor--blue;
   color: white;
   overflow: hidden;
