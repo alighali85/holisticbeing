@@ -41,7 +41,14 @@ a {
     transform: translate(-50%, 0%);
     font-size: $hb__text--h1;
     color: $hb__basicColor--white;
-    text-align: center
+    text-align: center;
+        @media screen and (max-width: 768px) {
+        max-width: 100%;   
+        left: 0%;
+        top: 50vh;
+        transform: translate(0%, 0%);
+        padding: 4px;
+        }
     }
 
 .hb__body__websiteName--start {

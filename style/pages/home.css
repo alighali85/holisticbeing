@@ -58,8 +58,13 @@ a {
 
 .hb__header__navbar__item {
   display: inline;
-  margin-right: 10px;
-  color: white; }
+  margin-right: 14px;
+  color: white;
+  opacity: 0.9;
+  transition: all 300ms ease-in-out; }
+  .hb__header__navbar__item:hover {
+    transform: scale(1.08);
+    opacity: 1; }
 
 .hb__header__navbar__item__button--subscribe {
   padding: 7px 14px;
@@ -81,7 +86,8 @@ a {
   bottom: 0px;
   height: 200px;
   background-color: #448AFF;
-  color: white; }
+  color: white;
+  overflow: hidden; }
 
 .hb__socialMedia--icon {
   max-width: 30px; }
@@ -115,7 +121,8 @@ a {
   bottom: 0px;
   height: 200px;
   background-color: #448AFF;
-  color: white; }
+  color: white;
+  overflow: hidden; }
 
 .hb__socialMedia--icon {
   max-width: 30px; }
@@ -152,8 +159,9 @@ a {
   color: inherit; }
 
 .hb__body__container__col--dark {
+  margin: 28px;
   background-color: rgba(255, 255, 255, 0.8);
-  margin: 28px; }
+  padding: 14px; }
 
 .hb__body__container__col__icon {
   height: 140px;
@@ -221,6 +229,13 @@ a {
   font-size: 24px;
   color: white;
   text-align: center; }
+  @media screen and (max-width: 768px) {
+    .hb__body__websiteName--quote {
+      max-width: 100%;
+      left: 0%;
+      top: 43vh;
+      transform: translate(0%, 0%);
+      padding: 4px; } }
 
 .hb__body__websiteName--start {
   width: 200px;
