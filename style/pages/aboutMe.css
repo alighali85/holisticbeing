@@ -182,9 +182,13 @@ a {
   .hb__body .hb__body__mainImage {
     width: 100%;
     height: 100vh;
-    background-image: url("../../img/about__me__personalImage.jpg"); }
+    background-image: url("../../img/about__me__personalImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
     .hb__body .hb__body__mainImage .hb__body__mainImage--overlay {
       width: 100%;
+      background-repeat: no-repeat;
       height: 100%;
       z-index: 1;
       background-color: rgba(0, 0, 0, 0.7);
