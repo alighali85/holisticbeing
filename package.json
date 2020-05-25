@@ -1,0 +1,25 @@
+{
+  "name": "holisticbeing",
+  "version": "1.0.0",
+  "description": "static website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "es:lint:fix": "eslint --fix --ext .js,.jsx ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alighali85/holisticbeing.git"
+  },
+  "author": "ali ghali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alighali85/holisticbeing/issues"
+  },
+  "homepage": "https://github.com/alighali85/holisticbeing#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-plugin-html": "^6.0.2"
+  }
+}
